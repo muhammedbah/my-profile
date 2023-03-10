@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.profile {
+    place-content: center;
+    height: 100vh;
+    max-width: 1240px;
+    display: grid;
+    margin: auto;
+}
+
+.profile-item {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 50%;
+    align-items: center;
+}
+
+.profile-info {
+    width: 50%;
+    align-items: center; 
+}
+
+.profile-btn {
+    background-color: rgb(114, 9, 114);
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 40%;
+}
+
+
